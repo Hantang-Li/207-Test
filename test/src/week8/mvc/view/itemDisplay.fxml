@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import week8.mvc.controller.ButtonCtrl.*?>
+
+<AnchorPane fx:id="pane1" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="week8.mvc.controller.ButtonCtrl">
+   <children>
+      <Label fx:id="numDisplay" alignment="CENTER" layoutX="54.0" layoutY="92.0" prefHeight="17.0" prefWidth="192.0" text="Display Number Here" />
+      <JFXButton layoutX="163.0" layoutY="196.0" onMouseClicked="#btnOnClick" text="first way to change scene" />
+      <Button layoutX="163.0" layoutY="275.0" mnemonicParsing="false" onMouseClicked="#buttonClick2" text="second way to change scene" />
+   </children>
+</AnchorPane>
